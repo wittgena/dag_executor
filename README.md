@@ -24,4 +24,4 @@ python cli/main.py --dag examples/hello_world.json
 
 ## 🔗 Related
 
-- [dag.dsl project](https://github.com/wittgena/gpt-meta-dsl)
+- [gpt-meta-dsl project](https://github.com/wittgena/gpt-meta-dsl)
