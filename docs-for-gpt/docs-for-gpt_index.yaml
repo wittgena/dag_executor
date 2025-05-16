@@ -1,0 +1,27 @@
+# docs-for-gpt/index.yaml
+# GPT-readable index of all structural documents in this directory
+
+metadata:
+  directory: docs-for-gpt
+  purpose: >
+    This folder is designed to help GPT agents understand the structure, flow,
+    and judgment roles within the dag_executor runtime system.
+
+documents:
+  - file: dag_executor.structure.for.gpt.md
+    title: Structural Guide for GPT
+    role: Explains how GPT fits into planner/executor/router/memory roles
+    format: markdown
+    importance: high
+
+  - file: dag_executor.dsl_mapping_matrix.md
+    title: DSL to Runtime Mapping Matrix
+    role: Maps DSL 'type:' declarations to their corresponding execution modules
+    format: markdown
+    importance: high
+
+instructions_for_gpt:
+  - Read this index first to locate structural guides
+  - Use `structure.for.gpt.md` to understand your role in the system
+  - Refer to `dsl_mapping_matrix.md` when resolving DSL → module mapping
+  - Combine this understanding with DSL runtime parsing to determine execution plan
