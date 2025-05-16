@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    { "id": "start", "type": "start" },
+    { "id": "task1", "type": "task", "action": "echo Hello, World!" },
+    { "id": "end", "type": "end" }
+  ],
+  "edges": [
+    { "from": "start", "to": "task1" },
+    { "from": "task1", "to": "end" }
+  ]
+}
