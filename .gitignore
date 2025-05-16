@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+
+# Test output
+coverage/
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# VSCode and editor settings
+.vscode/
+.idea/
+
+# Ignore everything in DSL by default (if previously configured)
+# But explicitly include it again below
+# ! = un-ignore
+
+# Ensure DSL specs are included
+dsl/
