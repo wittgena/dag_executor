@@ -1,0 +1,26 @@
+# dsl_manifest.yaml
+# Maps DSL spec files to versioned logical DSL names and supported executor features.
+
+dsls:
+  - name: @나.dsl
+    version: v0.7
+    file: "@나.dsl(v0.7).dsl"
+    features:
+      - selfExecutionStructure
+      - recursiveJudgment
+      - reflectiveNodePlan
+
+  - name: @gpt.dsl
+    version: v0.7
+    file: "@gpt.dsl(v0.7).dsl"
+    features:
+      - roleRecognition
+      - typeBasedExecution
+
+  - name: +dag.dsl
+    version: v1.0
+    file: "dag.dsl(v1.0).dsl"
+    features:
+      - planWorkFeedback
+      - haltCondition
+      - conditionalFlow
